@@ -275,6 +275,8 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -284,7 +286,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 45px;
+    background-color: #3A1D00;
 }
 
 .navbar {
@@ -361,7 +364,12 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+.navbar-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -477,6 +485,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color:#000!important;
 }
 
 .icon-lg {
@@ -677,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -686,7 +695,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Open Sans";
 }
 
@@ -705,12 +714,15 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
+    position:relative;
 }
-
+.h2-background{
+    background-color: #3A1D00;
+}
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -738,7 +750,9 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.black{
+    color:#000!important;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -753,7 +767,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #4A2600;
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,21 +785,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f9a67F;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ff9700!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .ltc-white {
@@ -822,7 +836,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation2.jpg");
 }
 
 @media (max-width: 1024px) {
